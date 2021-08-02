@@ -1,0 +1,211 @@
+@font-face{
+    src: url(assets/fonts/times-new-roman.ttf);
+    font-family: "Times New Roman";
+}
+:root {
+    --bs-dark-green: #57614e;
+    --bs-blue: #0d6efd;
+    --bs-indigo: #6610f2;
+    --bs-purple: #6f42c1;
+    --bs-pink: #d63384;
+    --bs-red: #dc3545;
+    --bs-orange: #fd7e14;
+    --bs-yellow: #ffc107;
+    --bs-green: #198754;
+    --bs-teal: #20c997;
+    --bs-cyan: #0dcaf0;
+    --bs-white: #fff;
+    --bs-gray: #6c757d;
+    --bs-gray-dark: #343a40;
+    --bs-primary: #0d6efd;
+    --bs-secondary: #6c757d;
+    --bs-success: #198754;
+    --bs-info: #0dcaf0;
+    --bs-warning: #ffc107;
+    --bs-danger: #dc3545;
+    --bs-light: #f8f9fa;
+    --bs-dark: #212529;
+    --bs-wlight: #d9d9d9;
+    --bs-grayn: #57614e;
+    
+  }
+.menu-nav-r{
+    display:flex !important;
+    justify-content:center !important;
+    padding-left:50px;
+}
+header{
+    padding: 35px 0 35px 0;
+    background-color: var(--bs-dark-green);
+    border-bottom: 2px solid var(--bs-white);
+}
+.nav-a{
+line-height: 24px;
+color: #b3c0a7;
+font-weight: bold;
+font-family: "Times";
+text-transform: uppercase;
+}
+.nav-a:hover{
+color: var(--bs-white) !important;
+}
+.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: unset;
+    align-items: center;
+}
+.navbar-nav {
+    justify-content: space-around !important;
+}
+.home{
+    background-color: var(--bs-wlight);
+}
+.home-center{
+    margin-top: 16px;
+    align-items: center;
+    background-color: #e9e9e9;
+    border-bottom: 1px solid var(--bs-white);
+}
+.home-center p{
+    font-size: 30px;
+    line-height: 48px;
+    color: #4e5944;
+    font-family: "Times New Roman";
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.home-text h1{
+    padding: 25px 0 25px 25px;
+    font-size: 32px;
+    line-height: 24px;
+    color: var(--bs-grayn);
+    font-family: "Times New Roman";
+}
+.home-text p{
+    
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--bs-grayn);
+    font-family: "Times New Roman";
+}
+.home-text1 {
+    max-width: 620px;
+}
+.home-text2 {
+    max-width: 262px;
+}
+.home-text{
+    background-color: #e3e3e3;
+    border-bottom: 1px solid var(--bs-white);
+}
+.home-text2 span {
+    display: block;
+    font-size: 14px;
+    line-height: 24px;
+    color: var(--bs-grayn);
+    font-family: "Times New Roman";
+    text-align: right;
+}
+.why-choose-us{
+    background-color: var(--bs-wlight);
+    border-bottom: 1px solid var(--bs-white);
+}
+.wcu-h1{
+    padding-top: 32px;
+    font-size: 19px;
+    line-height: 30px;
+    color: var(--bs-grayn);
+    font-family: "Times New Roman";
+}
+.card-img img {
+    width: 199px;
+    height: 132px;
+    object-fit: cover;
+}
+.btn{
+    display: inline-block;
+    width: 96px;
+    height: 30px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(0,0,0,0.5));
+    background-image: linear-gradient(0deg, #5b5b5b 0%, #7d7d7d 100%);
+    font-size: 12px;
+    line-height: 28px;
+    color: var(--bs-white);
+    font-family: "Arial";
+    text-align: center;
+    padding: 0;
+    border-radius: 0 !important;
+}
+footer{
+    background-color: var(--bs-wlight);
+}
+.footer-bg{
+    background-image: url(../img/footer.png);
+    background-position: top;
+    background-repeat: no-repeat;
+}
+.btn2{
+    display: inline-block;
+    width: 211px;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(0,0,0,0.5));
+    background-image: linear-gradient(0deg, #5b5b5b 0%, #7d7d7d 100%);
+    font-size: 12px;
+    line-height: 24px;
+    color: var(--bs-white);
+    font-family: "Arial";
+    text-align: center;
+    filter: drop-shadow(0.5px 0.866px 0px rgba(0,0,0,0.3));
+    text-decoration: none;
+    padding: 15px 0;
+}
+.cb-width{
+    max-width: 340px;
+}
+.copyright{
+    background-color: #4d5943;
+}
+.fa-facebook-square{
+    color: #3c5a98;
+}
+.fa-twitter-square{
+    color: #28aae1;
+}
+.fa-google-plus-square{
+    color: #c43425;
+}
+.fa-pinterest-square{
+    color: #cb2027;
+}
+.icons ul li {
+    font-size: 25px;
+    margin-left: 25px;
+    list-style: none;
+}
+.crp p{
+    font-size: 11px;
+    letter-spacing: 0px;
+    line-height: 30px;
+    color: #e2e2e2;
+    font-family: "Arial";
+    text-align: right;
+}
+.icrp {
+    align-items: center;
+    padding-top: 20px;
+}
+.btn2:hover {
+    color: #000000;
+}
+@media (min-width: 50px)
+    { .wcu-card{
+        display: flex;
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+ }
+
